@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/sergei/SimpleCoding/VScodeOpenGL/build",
+  "command": "/usr/bin/c++    -std=c++1y -g -o CMakeFiles/VScodeOpenGL.dir/src/main.cpp.o -c /home/sergei/SimpleCoding/VScodeOpenGL/src/main.cpp",
+  "file": "/home/sergei/SimpleCoding/VScodeOpenGL/src/main.cpp"
+}
+]
