@@ -32,3 +32,14 @@
 /home/sergei/SimpleCoding/VScodeOpenGL/build/CMakeFiles/ContinuousTest.dir
 /home/sergei/SimpleCoding/VScodeOpenGL/build/CMakeFiles/ContinuousSubmit.dir
 /home/sergei/SimpleCoding/VScodeOpenGL/build/CMakeFiles/VScodeOpenGL.dir
+/home/sergei/SimpleCoding/VScodeOpenGL/build/external/glfw/CMakeFiles/edit_cache.dir
+/home/sergei/SimpleCoding/VScodeOpenGL/build/external/glfw/CMakeFiles/test.dir
+/home/sergei/SimpleCoding/VScodeOpenGL/build/external/glfw/CMakeFiles/package_source.dir
+/home/sergei/SimpleCoding/VScodeOpenGL/build/external/glfw/CMakeFiles/rebuild_cache.dir
+/home/sergei/SimpleCoding/VScodeOpenGL/build/external/glfw/CMakeFiles/package.dir
+/home/sergei/SimpleCoding/VScodeOpenGL/build/external/glfw/src/CMakeFiles/edit_cache.dir
+/home/sergei/SimpleCoding/VScodeOpenGL/build/external/glfw/src/CMakeFiles/test.dir
+/home/sergei/SimpleCoding/VScodeOpenGL/build/external/glfw/src/CMakeFiles/package_source.dir
+/home/sergei/SimpleCoding/VScodeOpenGL/build/external/glfw/src/CMakeFiles/rebuild_cache.dir
+/home/sergei/SimpleCoding/VScodeOpenGL/build/external/glfw/src/CMakeFiles/package.dir
+/home/sergei/SimpleCoding/VScodeOpenGL/build/external/glfw/src/CMakeFiles/glfw.dir

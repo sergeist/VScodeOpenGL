@@ -98,6 +98,9 @@ VScodeOpenGL_EXTERNAL_OBJECTS =
 
 VScodeOpenGL: CMakeFiles/VScodeOpenGL.dir/src/main.cpp.o
 VScodeOpenGL: CMakeFiles/VScodeOpenGL.dir/build.make
+VScodeOpenGL: external/glfw/src/libglfw3.a
+VScodeOpenGL: /usr/lib/librt.so
+VScodeOpenGL: /usr/lib/libm.so
 VScodeOpenGL: CMakeFiles/VScodeOpenGL.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/sergei/SimpleCoding/VScodeOpenGL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable VScodeOpenGL"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/VScodeOpenGL.dir/link.txt --verbose=$(VERBOSE)

@@ -6,6 +6,10 @@
 			[
 				{
 					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.19.1"
@@ -44,12 +48,44 @@
 						27,
 						28
 					]
+				},
+				{
+					"build" : "external/glfw",
+					"childIndexes" : 
+					[
+						2
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "external/glfw"
+				},
+				{
+					"build" : "external/glfw/src",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "external/glfw/src",
+					"targetIndexes" : 
+					[
+						29
+					]
 				}
 			],
 			"name" : "Debug",
 			"projects" : 
 			[
 				{
+					"childIndexes" : 
+					[
+						1
+					],
 					"directoryIndexes" : 
 					[
 						0
@@ -86,6 +122,19 @@
 						26,
 						27,
 						28
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1,
+						2
+					],
+					"name" : "GLFW",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						29
 					]
 				}
 			],
@@ -290,9 +339,16 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "VScodeOpenGL::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-VScodeOpenGL-Debug-165860ab6d282e3570d4.json",
+					"jsonFile" : "target-VScodeOpenGL-Debug-d21d272b8e03b6aa610d.json",
 					"name" : "VScodeOpenGL",
 					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "glfw::@ca12bac854c2ac6b2230",
+					"jsonFile" : "target-glfw-Debug-eebe1156f1ec435642dc.json",
+					"name" : "glfw",
+					"projectIndex" : 1
 				}
 			]
 		}

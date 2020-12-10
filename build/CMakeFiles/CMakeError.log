@@ -1,0 +1,60 @@
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
+Change Dir: /home/sergei/SimpleCoding/VScodeOpenGL/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_b627f/fast && /usr/bin/make  -f CMakeFiles/cmTC_b627f.dir/build.make CMakeFiles/cmTC_b627f.dir/build
+make[1]: вход в каталог «/home/sergei/SimpleCoding/VScodeOpenGL/build/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_b627f.dir/src.c.o
+/usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD  -std=c11  -o CMakeFiles/cmTC_b627f.dir/src.c.o -c /home/sergei/SimpleCoding/VScodeOpenGL/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_b627f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b627f.dir/link.txt --verbose=1
+/usr/bin/cc  -std=c11  CMakeFiles/cmTC_b627f.dir/src.c.o -o cmTC_b627f 
+/usr/bin/ld: CMakeFiles/cmTC_b627f.dir/src.c.o: в функции «main»:
+src.c:(.text+0x3e): неопределённая ссылка на «pthread_create»
+/usr/bin/ld: src.c:(.text+0x4a): неопределённая ссылка на «pthread_detach»
+/usr/bin/ld: src.c:(.text+0x56): неопределённая ссылка на «pthread_cancel»
+/usr/bin/ld: src.c:(.text+0x67): неопределённая ссылка на «pthread_join»
+collect2: ошибка: выполнение ld завершилось с кодом возврата 1
+make[1]: *** [CMakeFiles/cmTC_b627f.dir/build.make:106: cmTC_b627f] Ошибка 1
+make[1]: выход из каталога «/home/sergei/SimpleCoding/VScodeOpenGL/build/CMakeFiles/CMakeTmp»
+make: *** [Makefile:140: cmTC_b627f/fast] Ошибка 2
+
+
+Source file was:
+#include <pthread.h>
+
+static void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/sergei/SimpleCoding/VScodeOpenGL/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_b2c37/fast && /usr/bin/make  -f CMakeFiles/cmTC_b2c37.dir/build.make CMakeFiles/cmTC_b2c37.dir/build
+make[1]: вход в каталог «/home/sergei/SimpleCoding/VScodeOpenGL/build/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_b2c37.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -std=c11 -DCHECK_FUNCTION_EXISTS=pthread_create -o CMakeFiles/cmTC_b2c37.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.19/Modules/CheckFunctionExists.c
+Linking C executable cmTC_b2c37
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b2c37.dir/link.txt --verbose=1
+/usr/bin/cc  -std=c11 -DCHECK_FUNCTION_EXISTS=pthread_create CMakeFiles/cmTC_b2c37.dir/CheckFunctionExists.c.o -o cmTC_b2c37  -lpthreads 
+/usr/bin/ld: невозможно найти -lpthreads
+collect2: ошибка: выполнение ld завершилось с кодом возврата 1
+make[1]: *** [CMakeFiles/cmTC_b2c37.dir/build.make:106: cmTC_b2c37] Ошибка 1
+make[1]: выход из каталога «/home/sergei/SimpleCoding/VScodeOpenGL/build/CMakeFiles/CMakeTmp»
+make: *** [Makefile:140: cmTC_b2c37/fast] Ошибка 2
+
+
+

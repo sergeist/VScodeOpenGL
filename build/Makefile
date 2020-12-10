@@ -539,6 +539,19 @@ VScodeOpenGL/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/VScodeOpenGL.dir/build.make CMakeFiles/VScodeOpenGL.dir/build
 .PHONY : VScodeOpenGL/fast
 
+#=============================================================================
+# Target rules for targets named glfw
+
+# Build rule for target.
+glfw: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 glfw
+.PHONY : glfw
+
+# fast build rule for target.
+glfw/fast:
+	$(MAKE) $(MAKESILENT) -f external/glfw/src/CMakeFiles/glfw.dir/build.make external/glfw/src/CMakeFiles/glfw.dir/build
+.PHONY : glfw/fast
+
 src/main.o: src/main.cpp.o
 
 .PHONY : src/main.o
@@ -606,6 +619,7 @@ help:
 	@echo "... NightlyTest"
 	@echo "... NightlyUpdate"
 	@echo "... VScodeOpenGL"
+	@echo "... glfw"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

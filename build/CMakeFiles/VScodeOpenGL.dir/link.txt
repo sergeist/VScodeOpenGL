@@ -1,1 +1,1 @@
-/usr/bin/c++  -std=c++1y -g CMakeFiles/VScodeOpenGL.dir/src/main.cpp.o -o VScodeOpenGL 
+/usr/bin/c++  -std=c++1y -g CMakeFiles/VScodeOpenGL.dir/src/main.cpp.o -o VScodeOpenGL  external/glfw/src/libglfw3.a -lpthread /usr/lib/librt.so -lm -ldl 
