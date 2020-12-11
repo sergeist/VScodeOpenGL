@@ -8,7 +8,8 @@
 					"build" : ".",
 					"childIndexes" : 
 					[
-						1
+						1,
+						3
 					],
 					"minimumCMakeVersion" : 
 					{
@@ -74,6 +75,20 @@
 					"source" : "external/glfw/src",
 					"targetIndexes" : 
 					[
+						30
+					]
+				},
+				{
+					"build" : "external/glad",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "external/glad",
+					"targetIndexes" : 
+					[
 						29
 					]
 				}
@@ -84,7 +99,8 @@
 				{
 					"childIndexes" : 
 					[
-						1
+						1,
+						2
 					],
 					"directoryIndexes" : 
 					[
@@ -131,6 +147,18 @@
 						2
 					],
 					"name" : "GLFW",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						30
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "Glad",
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
@@ -339,9 +367,16 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "VScodeOpenGL::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-VScodeOpenGL-Debug-d21d272b8e03b6aa610d.json",
+					"jsonFile" : "target-VScodeOpenGL-Debug-cc0faa0188e638b0fdad.json",
 					"name" : "VScodeOpenGL",
 					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "glad::@55512df44c152ef9a2ca",
+					"jsonFile" : "target-glad-Debug-1b5068aaecae40a4f0a6.json",
+					"name" : "glad",
+					"projectIndex" : 2
 				},
 				{
 					"directoryIndex" : 2,

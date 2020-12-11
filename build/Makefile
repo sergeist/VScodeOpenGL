@@ -552,6 +552,19 @@ glfw/fast:
 	$(MAKE) $(MAKESILENT) -f external/glfw/src/CMakeFiles/glfw.dir/build.make external/glfw/src/CMakeFiles/glfw.dir/build
 .PHONY : glfw/fast
 
+#=============================================================================
+# Target rules for targets named glad
+
+# Build rule for target.
+glad: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 glad
+.PHONY : glad
+
+# fast build rule for target.
+glad/fast:
+	$(MAKE) $(MAKESILENT) -f external/glad/CMakeFiles/glad.dir/build.make external/glad/CMakeFiles/glad.dir/build
+.PHONY : glad/fast
+
 src/main.o: src/main.cpp.o
 
 .PHONY : src/main.o
@@ -619,6 +632,7 @@ help:
 	@echo "... NightlyTest"
 	@echo "... NightlyUpdate"
 	@echo "... VScodeOpenGL"
+	@echo "... glad"
 	@echo "... glfw"
 	@echo "... src/main.o"
 	@echo "... src/main.i"

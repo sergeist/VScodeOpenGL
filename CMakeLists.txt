@@ -21,6 +21,9 @@ add_executable(${PROJECT_NAME} ${SOURCES})
 add_subdirectory(external/glfw)
 target_link_libraries(${PROJECT_NAME} glfw)
 
+add_subdirectory(external/glad)
+target_link_libraries(${PROJECT_NAME} glad)
+
 set(CPACK_PROJECT_NAME ${PROJECT_NAME})
 set(CPACK_PROJECT_VERSION ${PROJECT_VERSION})
 include(CPack)

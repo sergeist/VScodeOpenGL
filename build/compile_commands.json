@@ -1,7 +1,7 @@
 [
 {
   "directory": "/home/sergei/SimpleCoding/VScodeOpenGL/build",
-  "command": "/usr/bin/c++  -I/home/sergei/SimpleCoding/VScodeOpenGL/external/glfw/include  -std=c++1y -g -o CMakeFiles/VScodeOpenGL.dir/src/main.cpp.o -c /home/sergei/SimpleCoding/VScodeOpenGL/src/main.cpp",
+  "command": "/usr/bin/c++  -I/home/sergei/SimpleCoding/VScodeOpenGL/external/glfw/include -I/home/sergei/SimpleCoding/VScodeOpenGL/external/glad/include  -std=c++1y -g -o CMakeFiles/VScodeOpenGL.dir/src/main.cpp.o -c /home/sergei/SimpleCoding/VScodeOpenGL/src/main.cpp",
   "file": "/home/sergei/SimpleCoding/VScodeOpenGL/src/main.cpp"
 },
 {
@@ -83,5 +83,10 @@
   "directory": "/home/sergei/SimpleCoding/VScodeOpenGL/build/external/glfw/src",
   "command": "/usr/bin/cc -D_GLFW_USE_CONFIG_H -I/home/sergei/SimpleCoding/VScodeOpenGL/external/glfw/include -I/home/sergei/SimpleCoding/VScodeOpenGL/external/glfw/src -I/home/sergei/SimpleCoding/VScodeOpenGL/build/external/glfw/src  -std=c11 -g -fPIC -Wall -std=c99 -o CMakeFiles/glfw.dir/linux_joystick.c.o -c /home/sergei/SimpleCoding/VScodeOpenGL/external/glfw/src/linux_joystick.c",
   "file": "/home/sergei/SimpleCoding/VScodeOpenGL/external/glfw/src/linux_joystick.c"
+},
+{
+  "directory": "/home/sergei/SimpleCoding/VScodeOpenGL/build/external/glad",
+  "command": "/usr/bin/cc  -I/home/sergei/SimpleCoding/VScodeOpenGL/external/glad/include  -std=c11 -g -o CMakeFiles/glad.dir/src/glad.c.o -c /home/sergei/SimpleCoding/VScodeOpenGL/external/glad/src/glad.c",
+  "file": "/home/sergei/SimpleCoding/VScodeOpenGL/external/glad/src/glad.c"
 }
 ]

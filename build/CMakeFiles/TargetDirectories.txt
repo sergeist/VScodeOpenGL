@@ -43,3 +43,9 @@
 /home/sergei/SimpleCoding/VScodeOpenGL/build/external/glfw/src/CMakeFiles/rebuild_cache.dir
 /home/sergei/SimpleCoding/VScodeOpenGL/build/external/glfw/src/CMakeFiles/package.dir
 /home/sergei/SimpleCoding/VScodeOpenGL/build/external/glfw/src/CMakeFiles/glfw.dir
+/home/sergei/SimpleCoding/VScodeOpenGL/build/external/glad/CMakeFiles/edit_cache.dir
+/home/sergei/SimpleCoding/VScodeOpenGL/build/external/glad/CMakeFiles/test.dir
+/home/sergei/SimpleCoding/VScodeOpenGL/build/external/glad/CMakeFiles/package_source.dir
+/home/sergei/SimpleCoding/VScodeOpenGL/build/external/glad/CMakeFiles/rebuild_cache.dir
+/home/sergei/SimpleCoding/VScodeOpenGL/build/external/glad/CMakeFiles/package.dir
+/home/sergei/SimpleCoding/VScodeOpenGL/build/external/glad/CMakeFiles/glad.dir

@@ -99,6 +99,7 @@ VScodeOpenGL_EXTERNAL_OBJECTS =
 VScodeOpenGL: CMakeFiles/VScodeOpenGL.dir/src/main.cpp.o
 VScodeOpenGL: CMakeFiles/VScodeOpenGL.dir/build.make
 VScodeOpenGL: external/glfw/src/libglfw3.a
+VScodeOpenGL: external/glad/libglad.a
 VScodeOpenGL: /usr/lib/librt.so
 VScodeOpenGL: /usr/lib/libm.so
 VScodeOpenGL: CMakeFiles/VScodeOpenGL.dir/link.txt

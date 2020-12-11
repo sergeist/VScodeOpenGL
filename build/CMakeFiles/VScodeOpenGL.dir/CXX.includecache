@@ -6,6 +6,18 @@
 
 #IncludeRegexTransform: 
 
+../external/glad/include/KHR/khrplatform.h
+stdint.h
+-
+inttypes.h
+-
+stdint.h
+-
+
+../external/glad/include/glad/glad.h
+KHR/khrplatform.h
+-
+
 ../external/glfw/include/GLFW/glfw3.h
 stddef.h
 -
@@ -51,6 +63,10 @@ GL/glext.h
 -
 
 /home/sergei/SimpleCoding/VScodeOpenGL/src/main.cpp
+glad/glad.h
+-
 GLFW/glfw3.h
+-
+iostream
 -
 
