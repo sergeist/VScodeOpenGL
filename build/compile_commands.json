@@ -5,6 +5,11 @@
   "file": "/home/sergei/SimpleCoding/VScodeOpenGL/src/main.cpp"
 },
 {
+  "directory": "/home/sergei/SimpleCoding/VScodeOpenGL/build",
+  "command": "/usr/bin/c++  -I/home/sergei/SimpleCoding/VScodeOpenGL/external/glfw/include -I/home/sergei/SimpleCoding/VScodeOpenGL/external/glad/include  -std=c++1y -g -o CMakeFiles/VScodeOpenGL.dir/src/Render/ShaderProgram.cpp.o -c /home/sergei/SimpleCoding/VScodeOpenGL/src/Render/ShaderProgram.cpp",
+  "file": "/home/sergei/SimpleCoding/VScodeOpenGL/src/Render/ShaderProgram.cpp"
+},
+{
   "directory": "/home/sergei/SimpleCoding/VScodeOpenGL/build/external/glfw/src",
   "command": "/usr/bin/cc -D_GLFW_USE_CONFIG_H -I/home/sergei/SimpleCoding/VScodeOpenGL/external/glfw/include -I/home/sergei/SimpleCoding/VScodeOpenGL/external/glfw/src -I/home/sergei/SimpleCoding/VScodeOpenGL/build/external/glfw/src  -std=c11 -g -fPIC -Wall -std=c99 -Wdeclaration-after-statement -o CMakeFiles/glfw.dir/context.c.o -c /home/sergei/SimpleCoding/VScodeOpenGL/external/glfw/src/context.c",
   "file": "/home/sergei/SimpleCoding/VScodeOpenGL/external/glfw/src/context.c"

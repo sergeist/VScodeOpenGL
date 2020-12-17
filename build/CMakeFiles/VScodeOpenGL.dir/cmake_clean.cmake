@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/VScodeOpenGL.dir/src/Render/ShaderProgram.cpp.o"
   "CMakeFiles/VScodeOpenGL.dir/src/main.cpp.o"
   "VScodeOpenGL"
   "VScodeOpenGL.pdb"

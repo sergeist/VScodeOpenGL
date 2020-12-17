@@ -1,7 +1,9 @@
 cmake_minimum_required(VERSION 3.19.1 FATAL_ERROR)
 
 set(PROJECT_NAME VScodeOpenGL)
-set(SOURCES src/main.cpp)
+set(SOURCES src/main.cpp,
+            src/Render/ShaderProgram.cpp,
+            src/Render/shaderprogram.h)
 
 project(${PROJECT_NAME} VERSION 0.1.0 LANGUAGES C CXX)
 

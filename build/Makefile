@@ -565,6 +565,33 @@ glad/fast:
 	$(MAKE) $(MAKESILENT) -f external/glad/CMakeFiles/glad.dir/build.make external/glad/CMakeFiles/glad.dir/build
 .PHONY : glad/fast
 
+src/Render/ShaderProgram.o: src/Render/ShaderProgram.cpp.o
+
+.PHONY : src/Render/ShaderProgram.o
+
+# target to build an object file
+src/Render/ShaderProgram.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/VScodeOpenGL.dir/build.make CMakeFiles/VScodeOpenGL.dir/src/Render/ShaderProgram.cpp.o
+.PHONY : src/Render/ShaderProgram.cpp.o
+
+src/Render/ShaderProgram.i: src/Render/ShaderProgram.cpp.i
+
+.PHONY : src/Render/ShaderProgram.i
+
+# target to preprocess a source file
+src/Render/ShaderProgram.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/VScodeOpenGL.dir/build.make CMakeFiles/VScodeOpenGL.dir/src/Render/ShaderProgram.cpp.i
+.PHONY : src/Render/ShaderProgram.cpp.i
+
+src/Render/ShaderProgram.s: src/Render/ShaderProgram.cpp.s
+
+.PHONY : src/Render/ShaderProgram.s
+
+# target to generate assembly for a file
+src/Render/ShaderProgram.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/VScodeOpenGL.dir/build.make CMakeFiles/VScodeOpenGL.dir/src/Render/ShaderProgram.cpp.s
+.PHONY : src/Render/ShaderProgram.cpp.s
+
 src/main.o: src/main.cpp.o
 
 .PHONY : src/main.o
@@ -634,6 +661,9 @@ help:
 	@echo "... VScodeOpenGL"
 	@echo "... glad"
 	@echo "... glfw"
+	@echo "... src/Render/ShaderProgram.o"
+	@echo "... src/Render/ShaderProgram.i"
+	@echo "... src/Render/ShaderProgram.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
